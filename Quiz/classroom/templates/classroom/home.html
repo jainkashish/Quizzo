@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Getting Started
+  </h2>
+  <p class="lead">
+    <strong>
+    Quizzo is an application which provides a platform to conduct quizzes and grade students based on their performance.
+    <br>
+    If facilitates faculties to create quizzes for the courses of their interests with multiple choice questions and auto-grading feature.
+    <br>
+    Students can take the quiz for the subjects in which they are enrolled.
+    </strong>
+    <br>
+    <h3>Instructions</h3>
+    <p class="lead">
+    <strong>
+    If you already have an account click here to <a href="{% url 'login' %}">Log in</a>. 
+    <br>
+    <a href="{% url 'signup' %}">New User?</a> 
+    <br>Get started by creating a <a href="{% url 'student_signup' %}">Student account</a> or a <a href="{% url 'teacher_signup' %}">Teacher account</a>.
+    </strong>
+    </p>
+  </p>
+{% endblock %}
