@@ -5,8 +5,9 @@
 Quizzo is a web application which provides a platform to conduct quizzes and grade students based on their performance.
 
 ## Technologies used
-
-Django (Framework)\
+### Framework
+Django\
+### Language
 Python\
 HTML5\
 CSS3
