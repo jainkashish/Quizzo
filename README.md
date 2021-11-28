@@ -14,6 +14,7 @@ CSS3
 
 ## Get Started
 
+### How to run project locally
 Django Development Server
 
 ```bash
